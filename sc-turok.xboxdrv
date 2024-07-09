@@ -1,0 +1,54 @@
+[xboxdrv]
+evdev=/dev/input/by-id/usb-Valve_Software_Wired_Controller-if02-event-joystick
+silent=true
+
+[evdev-absmap]
+ABS_X=x1
+ABS_Y=y1
+ABS_RX=x2
+ABS_RY=y2
+ABS_HAT2X=lt
+ABS_HAT2Y=rt
+ABS_HAT0X=dpad_x
+ABS_HAT0Y=dpad_y
+
+[evdev-keymap]
+#BTN_THUMB=tl  ;left pad touch
+#BTN_THUMB2=tr  ;right pad touch
+BTN_SOUTH=a
+BTN_EAST=b
+BTN_NORTH=x
+BTN_WEST=y
+BTN_TL=lb
+BTN_TR=rb
+#BTN_TL2=lt  ;left trigger click
+#BTN_TR2=rt  ;right trigger click
+BTN_START=start
+BTN_SELECT=back
+BTN_MODE=guide
+#BTN_THUMBL=tl  ;joytick (thumb left) click
+#BTN_THUMBR=tr  ;right pad (thumb right) click
+BTN_GEAR_DOWN=tl
+BTN_GEAR_UP=tr
+#BTN_DPAD_UP=du  ;dpad click up
+#BTN_DPAD_DOWN=dd  ;dpad click down
+#BTN_DPAD_LEFT=dl  ;dpad click left
+#BTN_DPAD_RIGHT=dr  ;dpad click right
+
+[axismap]
+-y1=y1
+-y2=y2
+
+[ui-buttonmap]
+a=KEY_S
+b=KEY_D
+x=KEY_A
+y=KEY_W
+lb=KEY_SPACE
+rb=KEY_SPACE
+guide=KEY_ESC
+
+[ui-axismap]
+x1=KEY_A:KEY_D
+y1=KEY_W:KEY_S
+lt=BTN_LEFT
