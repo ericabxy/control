@@ -1,0 +1,11 @@
+boost-devel
+libusb
+pkg-config
+scons
+g++
+git-core
+libudev-devel
+libX11-devel
+xorg-x11-proto-devel
+dbus-glib-devel
+libusb1-devel-1.0.27-2.fc40.x86_64

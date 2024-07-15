@@ -9,8 +9,8 @@ ABS_RX=x2
 ABS_RY=y2
 ABS_HAT2X=rt
 ABS_HAT2Y=lt
-#ABS_HAT0X=dpad_x
-#ABS_HAT0Y=dpad_y
+ABS_HAT0X=dpad_x
+ABS_HAT0Y=dpad_y
 
 [evdev-keymap]
 #BTN_THUMB=tl
@@ -21,28 +21,20 @@ BTN_NORTH=x
 BTN_WEST=y
 BTN_TL=lb
 BTN_TR=rb
-#BTN_TL2=lt
-#BTN_TR2=rt
+#BTN_TL2=tl
+#BTN_TR2=tr
 BTN_SELECT=back
 BTN_START=start
 BTN_MODE=guide
 BTN_THUMBL=tl
 BTN_THUMBR=tr
-BTN_GEAR_DOWN=tl
-BTN_GEAR_UP=tr
-BTN_DPAD_UP=du
-BTN_DPAD_DOWN=dd
-BTN_DPAD_LEFT=dl
-BTN_DPAD_RIGHT=dr
+#BTN_GEAR_DOWN=tl
+#BTN_GEAR_UP=tr
+#BTN_DPAD_UP=du
+#BTN_DPAD_DOWN=dd
+#BTN_DPAD_LEFT=dl
+#BTN_DPAD_RIGHT=dr
 
 [axismap]
 -y1=y1
 -y2=y2
-
-[modifier]
-square-axis=x1:y1
-four-way-restrictor=x2:y2
-
-[calibration]
-x2=-10000:0:10000
-y2=-10000:0:10000
