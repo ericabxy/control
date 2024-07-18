@@ -37,7 +37,7 @@ BTN_DPAD_RIGHT=dr
 
 [axismap]
 -y1=y1
--y2=y2
+-y2^deadzone:10000=y2
 
 [modifier]
 square-axis=x1:y1
