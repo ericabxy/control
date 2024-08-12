@@ -1,0 +1,37 @@
+<!-- This file defines a GKOSEZ layout. -->
+<keyboard name="ASCII Compact (US)" script="latin">
+  <row>
+    <key shift="1" key0="a" key1="compose" key2="loc esc" key3="$" key4="v" key5="left" key6="+" key7="up"/>
+    <key key0="n" key1="`" key2="´" key3="/" key4="\" key5="-" key6="!" key7="^" key8="l"/>
+    <key key0="i" key1="=" key2="enter" key3="x" key5="?" key6="right" key7="up" key8="="/>
+    <key key0="switch_emoji"/>
+  </row>
+  <row>
+    <key shift="1" key0="h" key1="{" key2="%" key3="[" key4="_" key5="(" key6="k" key7="shift"/>
+    <key key0="o" key1="q" key2="p" key3="g" key4="j" key5="c" key6="b" key7="u" key8="d"/>
+    <key key0="r" key1="|" key2="}" key3="@" key4="]" key5="m" key6=")" key7="shift"/>
+    <key key0="switch_numeric"/>
+  </row>
+  <row>
+    <key shift="1" key0="t" key1="~" key2="y" key3="backspace" key4="loc tab" key5="&lt;" key6="*" key8="down"/>
+    <key key0="e" key1="&quot;" key2="'" key3="," key4=":" key6="z" key7="w" key8="."/>
+    <key key0="s" key1="f" key3=";" key4="space" key5="#" key6="&gt;" key7="&amp;" key8="down"/>
+    <key key0="enter"/>
+  </row>
+  <row>
+    <key width="2.5" key0="backspace" key3="delete"/>
+    <key width="2.5" key0="space" key1="alt" key2="ctrl" key5="fn" key6="esc"/>
+  </row>
+  <modmap>
+    <fn a="a" b="1"/>
+    <fn a="h" b="2"/>
+    <fn a="t" b="3"/>
+    <fn a="n" b="4"/>
+    <fn a="o" b="5"/>
+    <fn a="e" b="6"/>
+    <fn a="i" b="7"/>
+    <fn a="r" b="8"/>
+    <fn a="s" b="9"/>
+  </modmap>
+</keyboard>
+

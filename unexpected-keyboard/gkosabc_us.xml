@@ -1,11 +1,11 @@
 <!-- This file defines the GKOSABC layout. -->
 <keyboard name="GKOSABC (US)" script="latin">
   <row>
-    <key key0="enter" key6="page_up"/>
+    <key key0="enter" key7="page_up"/>
     <key key0="a" key1="~" key4="l"/>
     <key key0="d" key8="g"/>
-    <key key0="h" key3="p" key8="f11_placeholder"/>
-    <key key0="¤" key5="left" key5="page_up"/>
+    <key key0="h" key3="p"/>
+    <key key0="¤" key5="left" key7="page_up"/>
   </row>
   <row>
     <key key0="ü" key2="å" key4="ö" key6="ä"/>
@@ -26,6 +26,36 @@
     <key width="2.5" key0="space" key1="enter" key3="delete" key5="tab"/>
   </row>
   <modmap>
+    <fn a="a" b="1"/>
+    <fn a="b" b="2"/>
+    <fn a="c" b="3"/>
+    <fn a="d" b="4"/>
+    <fn a="e" b="5"/>
+    <fn a="f" b="6"/>
+    <fn a="g" b="0"/>
+    <fn a="h" b="7"/>
+    <fn a="i" b="8"/>
+    <fn a="j" b="9"/>
+    <fn a="k" b="#"/>
+    <fn a="l" b="@"/>
+    <fn a="m" b="½"/>
+    <fn a="n" b="&amp;"/>
+    <fn a="o" b="+"/>
+    <fn a="p" b="%"/>
+    <fn a="q" b="="/>
+    <fn a="r" b="^"/>
+    <fn a="s" b="*"/>
+    <fn a="t" b="$"/>
+    <fn a="u" b="€"/>
+    <fn a="v" b="£"/>
+    <fn a="w" b="("/>
+    <fn a="x" b="["/>
+    <fn a="y" b="&lt;"/>
+    <fn a="z" b="{"/>
+    <fn a="ü" b=")"/>
+    <fn a="å" b="]"/>
+    <fn a="ä" b="&gt;"/>
+    <fn a="ö" b="}"/>
   </modmap>
 </keyboard>
 
