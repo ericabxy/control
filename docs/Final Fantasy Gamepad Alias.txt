@@ -1,7 +1,20 @@
-Default
+Config Filename
+---------------
+
+ffxivConfig/FFXIV.cfg
+
+Line
 -------
 
+<Gamepad Settings>
+...
 Alias {34,35,32,33,39,38,36,37,43,42,40,41,9,7,6,8,4,45,2,5,47,3,0,1}
+...
+
+Steam Settings
+--------------
+
+This is correct but doesn't work.
 
 1. DPad Up (Steam 34)
 2. DPad Down (Steam 35)
